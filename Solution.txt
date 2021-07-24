@@ -281,7 +281,38 @@ $ notepad Solution.txt
 --------------------------------------------------------------------------
 Task 10 : 10. Push the changes to github again in same repository.
 
-$ git push 
+
+ PRAVEEN@Neosoft MINGW64 ~/Assignment (master)
+$ git add Solution.txt
+
+PRAVEEN@Neosoft MINGW64 ~/Assignment (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Solution.txt
+
+
+PRAVEEN@Neosoft MINGW64 ~/Assignment (master)
+$ git commit -m "Final Commit"
+[master 5663c9e] Final Commit
+ 1 file changed, 288 insertions(+)
+ create mode 100644 Solution.txt
+
+PRAVEEN@Neosoft MINGW64 ~/Assignment (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.12 KiB | 1.06 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/praveen9599/Assignment.git
+   a56ebca..5663c9e  master -> master
+
+
 --------------------------------------------------------------------------
 Task 11 : 11. Share me the link of this reposirory from your github which includes 3 files and Solution.txt for assesment. 
 
